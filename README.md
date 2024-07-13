@@ -17,3 +17,11 @@
 <img width="867" alt="Screenshot 2024-07-12 at 4 19 25 PM" src="https://github.com/user-attachments/assets/ae044cd3-68d0-4669-9c59-108fa579abc1">
 </p> I will run sudo vim /etc/snort/snort.conf to modify the configurations. There are 9 steps to create a custom configuration. The most important options are under step 1 where I will set the network variables </p> 
 <img width="876" alt="Screenshot 2024-07-13 at 4 59 15 PM" src="https://github.com/user-attachments/assets/85e4d7cb-a25e-4470-9111-f1aaa6867644">
+</p> I specify next to "homenet" the network that snort will be monitoring (192.168.0.0/16). I also leave external_net as any. I do not want to confine this network variable to a specific subnet because attacks and intrusions can come from any network/ip address/subnet. 
+</p><img width="779" alt="Screenshot 2024-07-13 at 5 24 03 PM" src="https://github.com/user-attachments/assets/e2264931-c97c-40ba-a1ea-a3a53d16eff0">
+</p> There are essentially two segments of rules (section 7) that are loaded: on one hand, there are the local rules which are predefined. On the other hand, there are custom ones 
+<img width="682" alt="Screenshot 2024-07-13 at 5 35 55 PM" src="https://github.com/user-attachments/assets/22637283-93af-4ebe-ad1c-b3247cfc8cae">
+</p> I write the changes and quit. I need to test the configuration file to see whether the changes made are valid and there are no syntax errors. I run the following to do so: </p>
+<img width="807" alt="Screenshot 2024-07-13 at 5 41 52 PM" src="https://github.com/user-attachments/assets/24215e00-b816-4802-82b7-74eb4d7f7c76">
+</p> 
+
