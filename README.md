@@ -1,5 +1,6 @@
 # Implementing-an-IDS-with-Snort
-<p> An Intrusion Detection System (IDS) is a host/network planted within a network to capture traffic and identify malicious activity based on predefined rules, after which, this activity is logged, and a notification is sent to the relevant parties informing them of an intrusion. Snort is a popular open source tool used for this purpose. IDS's are typically coupled with the functionality to also perform intrusion prevention, whereby specific rules can be set to drop packets that are malicious or intrusive. In this project, I will set up and configure Snort on my Linux system.  </p>
+<p> An Intrusion Detection System (IDS) is a host/network planted within a network to capture traffic and identify malicious activity based on predefined rules, after which, this activity is logged, and a notification is sent to the relevant parties informing them of an intrusion. IDS's are typically coupled with the functionality to also perform intrusion prevention, whereby specific rules can be set to drop packets that are malicious or intrusive. In this project, I will set up and configure Snort, which is a free and open source IDS/IPS system used to perform traffic/protocol analysis, content matching, and can be used to detect and prevent various attacks based on predefined rules.  </p>
+</p> Snort has three types of rule sets: community rules (free rules set by the community), registered rules (free rule sets created by Talos that require account registration for use), and subscription only rules (require an active paid subscription in order to be accessed and used). OR, we can create our own rules   
 <h2>Utilities Used</h2>
 </p>- Ubuntu </p>
 </p>- UTM VM setup </p>
@@ -29,6 +30,8 @@
 <img width="709" alt="Screenshot 2024-07-13 at 5 58 44 PM" src="https://github.com/user-attachments/assets/73cbab7a-b96f-40c4-b61f-99fe7b234297">
 </p> i go back to my configuration file to where my custom rules are specified and comment all of them to disable them. I leave the local rules on. Disabling these rules that are developed by snort and the communityis recommended to learn how to use snort. 
 <img width="740" alt="Screenshot 2024-07-13 at 6 10 34 PM" src="https://github.com/user-attachments/assets/4988efca-7238-497b-b0ca-a8e6189848e6">
-</p> When I run (sudo snort -T -i enp0s1 -c /etc/snort/snort.conf) again, I no longer see errors regarding duplicated signature ID's
+</p> When I run (sudo snort -T -i enp0s1 -c /etc/snort/snort.conf) again, I no longer see errors regarding duplicated signature ID's nor do I see any community rules enabled </p>
+<img width="885" alt="Screenshot 2024-07-14 at 3 56 54 PM" src="https://github.com/user-attachments/assets/9bdc21d6-4ccd-44a9-836e-71d04ce22cb9">
+</p> 
 
 
