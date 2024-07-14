@@ -1,4 +1,4 @@
-# Implementing-an-IDS-and-IPS-with-Snort
+# Implementing-an-IDS-with-Snort
 <p> An Intrusion Detection System (IDS) is a host/network planted within a network to capture traffic and identify malicious activity based on predefined rules, after which, this activity is logged, and a notification is sent to the relevant parties informing them of an intrusion. Snort is a popular open source tool used for this purpose. IDS's are typically coupled with the functionality to also perform intrusion prevention, whereby specific rules can be set to drop packets that are malicious or intrusive. In this project, I will set up and configure Snort on my Linux system.  </p>
 <h2>Utilities Used</h2>
 </p>- Ubuntu </p>
