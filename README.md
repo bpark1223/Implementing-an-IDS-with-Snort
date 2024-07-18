@@ -1,6 +1,5 @@
 # Implementing-an-IDS-with-Snort
 <p> An Intrusion Detection System (IDS) is a host/network planted within a network to capture traffic and identify malicious activity based on predefined rules, after which, this activity is logged, and a notification is sent to the relevant parties informing them of an intrusion. IDS's are typically coupled with the functionality to also perform intrusion prevention, whereby specific rules can be set to drop packets that are malicious or intrusive. In this project, I will set up and configure Snort, which is a free and open source IDS/IPS system used to perform traffic/protocol analysis, content matching, and can be used to detect and prevent various attacks based on predefined rules.  </p>
-</p> Snort has three types of rule sets: community rules (free rules set by the community), registered rules (free rule sets created by Talos that require account registration for use), and subscription only rules (require an active paid subscription in order to be accessed and used). OR, we can create our own rules   
 <h2>Utilities Used</h2>
 </p>- Ubuntu </p>
 </p>- UTM VM setup </p>
